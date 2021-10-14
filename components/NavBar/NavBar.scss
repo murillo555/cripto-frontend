@@ -1,0 +1,72 @@
+//NavBar
+.NavbarComponent {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .navbar {
+        width: $navbar-width;
+        height: 100vh;
+        position: fixed;
+        background-color: $bg-primary;
+        transition: 0.4s !important;
+        z-index: 999 !important;
+        box-shadow: 28px 2px 31px -19px rgba(0, 0, 0, 0.35);
+        -webkit-box-shadow: 28px 2px 31px -19px rgba(0, 0, 0, 0.35);
+        -moz-box-shadow: 28px 2px 31px -19px rgba(0, 0, 0, 0.35);
+    }
+    .logout-option {
+        cursor: pointer;
+    }
+    .logo-style {
+        max-height: 6rem;
+        border-radius: 100px !important;
+    }
+    .position-image {
+        margin-top: $space-s !important;
+    }
+    .nav-link {
+        font-size: 1rem;
+        display: flex !important;
+        align-items: center !important;
+        width: 100% !important;
+        margin: 0px;
+        //height: 80px !important;
+        &:active,
+        &:focus,
+        &:hover {
+            transition: 0s !important;
+            background-color: $primary;
+            color: $text-black !important;
+            border-right: 6px solid $hover-primary !important;
+        }
+    }
+    nav ul {
+        li {
+            color: $primary !important;
+        }
+    }
+    .nuser {
+        font-size: $size-s;
+        color: #aaa;
+    }
+    .header-button {
+        display: none;
+        color: $primary;
+        font-size: $space-l;
+        border-color: none !important;
+        &:focus,
+        &:hover,
+        &:active {
+            border-color: none !important;
+            color: $hover-primary;
+        }
+        &:focus {
+            box-shadow: none !important;
+        }
+    }
+    @media (min-width: 922px) {
+        .logout-option {
+            width: $navbar-width !important;
+            position: fixed;
+            bottom: 0 !important;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.nav-header {
+    position: fixed;
+    z-index: 995;
+    height: 64px !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.4s;
+    &_avatar {
+        position: fixed !important;
+        right: 0 !important;
+        margin-right: $space-m !important;
+        .avatar {
+            border-radius: 100px;
+        }
+        .user-name {
+            margin-right: $space-l !important;
+        }
+    }
+}

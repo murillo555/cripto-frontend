@@ -1,0 +1,20 @@
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.flex-between {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.w-15 {
+    width: 15%;
+}

@@ -1,0 +1,107 @@
+.moda-base {
+    width: 90vw !important;
+    max-width: 90vw !important;
+}
+
+// Cards
+.card {
+    border-radius: 20px;
+    background: $ui-03!important;
+    padding: $space-l!important;
+}
+
+.card-title {
+    color: $text-inverse;
+}
+
+.btn {
+    padding: $space-s $space-xxl!important;
+    font-size: 14px!important;
+    line-height: 16px!important;
+    font-weight: 700!important;
+    border-radius: 26px!important;
+    border: none!important;
+    outline: none!important;
+    transition: all 0.2s!important;
+    position: relative;
+}
+
+.btn:active {
+    box-shadow: 0px 4px 6px $primary;
+}
+
+.btn.btn-primary {
+    background-color: $ui-01;
+    color: $text-inverse;
+    i {
+        color: $text-inverse !important;
+    }
+    &:hover {
+        background-color: $bg-secondary;
+    }
+    &:active {
+        background-color: $primary !important;
+        box-shadow: 0px 4px 6px $primary;
+    }
+}
+
+.btn.btn-action-primary {
+    padding: $space-xs $space-xl !important;
+    background-color: $ui-01;
+    color: $text-inverse;
+    box-sizing: border-box;
+    border-radius: 5px !important;
+    i {
+        color: $text-inverse !important;
+    }
+    &:hover {
+        background-color: $bg-secondary;
+    }
+    &:active {
+        background-color: $primary !important;
+        box-shadow: 0px 4px 6px $primary;
+    }
+}
+
+.btn.btn-action-info {
+    padding: $space-xs $space-m !important;
+    background-color: $info;
+    color: $text-inverse;
+    box-sizing: border-box;
+    border-radius: 5px !important;
+    i {
+        color: $text-inverse !important;
+    }
+    &:hover {
+        background-color: $hover-info;
+    }
+    &:active {
+        background-color: $primary !important;
+        box-shadow: 0px 4px 6px $primary;
+    }
+}
+
+.btn.btn-action-warning {
+    padding: $space-xs $space-m !important;
+    background-color: $warning;
+    color: $text-inverse;
+    box-sizing: border-box;
+    border-radius: 5px !important;
+    i {
+        color: $text-inverse !important;
+    }
+    &:hover {
+        background-color: $hover-warning;
+    }
+    &:active {
+        background-color: $primary !important;
+        box-shadow: 0px 4px 6px $primary;
+    }
+}
+
+p,
+h5 {
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
